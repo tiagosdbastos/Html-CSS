@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio</title>
+    <h1 style="text-align:center; font-family:'Courier New', Courier, monospace; font-size: 55px; color: aliceblue; ">Cardápio</h1>
+</head>
+<body style="background-color: rgb(0, 0, 0);">
+    <div class="linha1-container"> 
+        <img src="burgui.jpg" alt="burgui">
+        <img src="batata frita.avif" alt="batata">
+        <img src="frango.jpg" alt="frango frito">
+
+    </div>
+    <div class="container">
+        <div class="name">Hambúrguer<br> 25,90 </div>
+        <div class="name">Batata frita<br>14,90</div>
+        <div class="name">Frango frito<br> 14,90</div>
+    </div>
+        
+    <div class="linha1-container"> 
+    
+        <img src="refri.jpeg" alt="refri">
+        <img src="suco.jpeg" alt="suco">
+        <img src="cerveja.jpg" alt="cerveja">
+
+    </div>
+    
+    <div class="container2">
+        <div class="name">Refris<br> 5,90 </div>
+        <div class="name">Sucos<br>4,90</div>
+        <div class="name">Cerveja<br> 9,90</div>
+    </div>
+
+</body>
+</html>
+
+
+
+CSS:
+.linha1-container {
+    display: flex;
+    justify-content: space-between; 
+    gap: 10px; 
+}
+
+.linha1-container img {
+    width: 27%; 
+    height: auto;  
+}
+
+body {
+    font-family: Arial, sans-serif;
+    
+}
+
+.container {
+   display:flex;
+    gap: 35%;
+    margin: flex;
+    margin-left: 10%;
+    font-size: x-large;
+    color: aliceblue;
+    text-align: justify;
+    width: 85%;
+}
+
+.name {
+    padding: 30px;
+    //border: 1px solid #ccc;
+   //border-radius: 30px;
+}
+.container2 {
+    display:flex;
+     gap: 35%;
+     margin: flex;
+     margin-left: 10%;
+     font-size: x-large;
+     color: aliceblue;
+     text-align: justify;
+     width: 95%;
+ }
